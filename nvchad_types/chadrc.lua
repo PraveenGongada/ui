@@ -4,11 +4,8 @@
 ---@field ui? UIConfig
 ---@field base46? Base46Config
 ---@field lsp? NvLspConfig
----@field term? TermConfig
 ---@field cheatsheet? NvCheatsheetConfig
----@field mason? MasonConfig
 ---@field colorify? ColorifyConfig
----@field nvdash? NvDashConfig
 
 ---@class Base46Config
 --- List of highlights group to add.
@@ -132,7 +129,7 @@
 
 ---@class NvCheatsheetConfig
 --- Cheatsheet theme
----@field theme? '"grid"'|'"simple"'
+---@field theme? '"grid"
 ---@field excluded_groups? string[]
 
 ---Options for NvChad/ui lsp configuration
