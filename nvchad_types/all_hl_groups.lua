@@ -1499,7 +1499,6 @@ error("Requiring a meta file")
 ---| "'lsp'"
 ---| "'lspsaga'"
 ---| "'markview'"
----| "'mason'"
 ---| "'mini-tabline'"
 ---| "'navic'"
 ---| "'neogit'"

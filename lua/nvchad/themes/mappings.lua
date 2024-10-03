@@ -11,9 +11,9 @@ local map = function(mode, keys, func, opts)
   end
 end
 
-map("i", { "<C-n>", "<Down>" }, nvapi.move_down, { buffer = state.input_buf })
+map("i", { "<C-j>", "<Down>" }, nvapi.move_down, { buffer = state.input_buf })
 map("n", { "j", "<Down>" }, nvapi.move_down, { buffer = state.input_buf })
-map("i", { "<C-p>", "<Up>" }, nvapi.move_up, { buffer = state.input_buf })
+map("i", { "<C-k>", "<Up>" }, nvapi.move_up, { buffer = state.input_buf })
 map("n", { "k", "<Up>" }, nvapi.move_up, { buffer = state.input_buf })
 
 map({ "i", "n" }, { "<cr>" }, function()
